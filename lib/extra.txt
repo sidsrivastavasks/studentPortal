@@ -1,0 +1,65 @@
+// const String _heroAddTodo = 'add-todo-hero';
+
+// class _AddTodoPopupCard extends StatelessWidget {
+//   /// {@macro add_todo_popup_card}
+//   const _AddTodoPopupCard({Key key}) : super(key: key);
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Center(
+//       child: Padding(
+//         padding: const EdgeInsets.all(32.0),
+//         child: Hero(
+//           tag: _heroAddTodo,
+//           createRectTween: (begin, end) {
+//             return CustomRectTween(begin: begin, end: end);
+//           },
+//           child: Material(
+//             color: hexToColor("#861c03"),
+//             elevation: 2,
+//             shape:
+//                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(32)),
+//             child: SingleChildScrollView(
+//               child: Padding(
+//                 padding: const EdgeInsets.all(16.0),
+//                 child: Column(
+//                   mainAxisSize: MainAxisSize.min,
+//                   children: [
+//                     const TextField(
+//                       style: TextStyle(color: Colors.white),
+//                       decoration: InputDecoration(
+//                         hintText: 'E-mail',
+//                         border: InputBorder.none,
+//                       ),
+//                       cursorColor: Colors.white,
+//                     ),
+//                     const Divider(
+//                       color: Colors.white,
+//                       thickness: 0.2,
+//                     ),
+//                     const TextField(
+//                       decoration: InputDecoration(
+//                         hintText: 'Password',
+//                         border: InputBorder.none,
+//                       ),
+//                       cursorColor: Colors.white,
+//                       maxLines: 1,
+//                     ),
+//                     const Divider(
+//                       color: Colors.white,
+//                       thickness: 0.2,
+//                     ),
+//                     FlatButton(
+//                       onPressed: () {},
+//                       child: const Text('Login'),
+//                     ),
+//                   ],
+//                 ),
+//               ),
+//             ),
+//           ),
+//         ),
+//       ),
+//     );
+//   }
+// }
